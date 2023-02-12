@@ -1,5 +1,5 @@
 /**	
-	* Template Name: Eventoz
+	* Template Name: pupa
 	* Version: 1.0	
 	* Template Scripts
 	* Author: MarkUps
