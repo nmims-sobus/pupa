@@ -1,6 +1,6 @@
 
 /*
-Template Name: pupa	
+Template Name: technosync	
 Author: MarkUps
 Author URI: http://www.markups.io/
 Version: 1.0
@@ -1383,10 +1383,12 @@ button:focus {
 	.mu-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
+		border-radius: 50%;
 	}
 
 	.mu-navbar .mu-menu {
 		margin-top: 5px;
+		border-radius: 50%;
 	}
 
 	.mu-navbar .mu-menu li a {

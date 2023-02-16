@@ -1,5 +1,5 @@
 /**	
-	* Template Name: pupa
+	* Template Name: technosync
 	* Version: 1.0	
 	* Template Scripts
 	* Author: MarkUps
