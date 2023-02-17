@@ -1,6 +1,6 @@
 
 /*
-Template Name: technosync	
+Template Name: innovent	
 Author: MarkUps
 Author URI: http://www.markups.io/
 Version: 1.0
@@ -135,7 +135,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	color: ;
+	/* color:  */
 }
 
 address {
@@ -555,9 +555,9 @@ button:focus {
 	display: block;
 }
 
-.mu-video-iframe-area iframe {
+/* .mu-video-iframe-area iframe {
 
-}
+} */
 
 
 /*--------------------*/
@@ -769,9 +769,10 @@ button:focus {
 	margin-bottom: 5px;
 }
 
-.mu-single-speakers-social {
+/* .mu-single-speakers-social {
 
-}
+} */
+
 
 .mu-single-speakers-social li {
 	display: inline-block;

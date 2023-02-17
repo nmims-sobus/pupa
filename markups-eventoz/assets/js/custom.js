@@ -1,5 +1,5 @@
 /**	
-	* Template Name: technosync
+	* Template Name: innovent
 	* Version: 1.0	
 	* Template Scripts
 	* Author: MarkUps
