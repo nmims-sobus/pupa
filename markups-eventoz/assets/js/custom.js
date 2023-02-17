@@ -1,5 +1,5 @@
 /**	
-	* Template Name: innovent
+	* Template Name: Innovent
 	* Version: 1.0	
 	* Template Scripts
 	* Author: MarkUps
