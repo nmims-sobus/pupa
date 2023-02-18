@@ -534,7 +534,7 @@ button:focus {
 }
 
 .mu-video-iframe-area {
-	background-color: rgba(0,0,0,0.84);
+	/* background-color: rgba(0,0,0,0.84); */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1772,3 +1772,44 @@ button:focus {
 	
 }
 
+/* Marquee Tag add on  */
+.newsm {
+  animation: blink 3s infinite;
+  font-size: 5rem;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 50px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 100s linear infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    color: blue;
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.footerm{
+	background-color: rgb(149, 147, 204 , 0.2);
+}
+.contentm{
+	font-size: 2rem;
+}
