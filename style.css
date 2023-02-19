@@ -1779,7 +1779,7 @@ button:focus {
 }
 
 .marquee {
-  position: absolute;
+  position:relative;
   width: 100vw;
   max-width: 100%;
   height: 50px;
@@ -1788,10 +1788,10 @@ button:focus {
 }
 
 .track {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee 100s linear infinite;
+  position:relative;
+  white-space:nowrap;
+  will-change:auto;
+  animation: marquee 5s linear infinite;
 }
 @keyframes blink {
   0% {
@@ -1813,6 +1813,7 @@ button:focus {
 }
 .contentm{
 	font-size: 2rem;
+
 }
 .imageforsobus{
   margin-left: 70px;
