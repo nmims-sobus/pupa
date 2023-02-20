@@ -135,7 +135,7 @@ kbd {
 	background-color: #ddd;
 	padding: 4px 6px;
 	border-radius: 2px;
-	/* color:  */
+	color: ;
 }
 
 address {
@@ -172,6 +172,55 @@ button:focus {
 	border: none;
 }
 
+/* Marquee Tag add on  */
+
+/* .footerm {
+	/* background-color: rgba(47, 43, 154, 0.2); 
+} */
+
+
+.newsm {
+	animation: blink 3s infinite;
+	font-size: 5rem;
+  }
+
+.marquee {
+	position: relative;
+	width: 100vw;
+	max-width: 100%;
+	height: 50px;
+	overflow-x: hidden;
+  }  
+
+.track {
+	position: absolute;
+	white-space: nowrap;
+	will-change: transform;
+	animation: marquee 5s linear infinite;
+  }
+  @keyframes blink {
+	0% {
+	  opacity: 1;
+	  color:rgb(149, 6, 49);
+	}
+	50% {
+	  opacity: 0.5;
+	  color: rgb(149, 6, 49);
+	}
+	100% {
+		opacity: 1;
+		color:rgb(149, 6, 49);
+	}
+  }
+  
+  @keyframes marquee {
+	from { transform: translateX(0); }
+	to { transform: translateX(-30%); }
+  }
+  
+  .contentm{
+	font-size: 2rem;
+}
 
 /* ========= BUTTON =========*/
 
@@ -221,7 +270,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets\images\3.jpg");
+	background-image: url("assets/images/3.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -243,6 +292,7 @@ button:focus {
 	float: left;
 	text-align: center;
 	width: 100%;
+	border-radius: 5px;
 }
 
 .mu-logo {
@@ -253,6 +303,7 @@ button:focus {
 	background: #fff;
 	padding: 5px 20px;
 	margin-bottom: 30px;
+	border-radius: 10px;
 }
 
 
@@ -415,7 +466,7 @@ button:focus {
 	display: inline;
 	float: left;
 	text-align: center;
-	padding: 0 0px;
+	padding: 0 120px;
 	width: 100%;
 }
 
@@ -448,7 +499,7 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets\images\3.jpg");
+	background-image: url("assets/images/3.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -534,7 +585,7 @@ button:focus {
 }
 
 .mu-video-iframe-area {
-	/* background-color: rgba(0,0,0,0.84); */
+	background-color: rgba(0,0,0,0.84);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -555,9 +606,9 @@ button:focus {
 	display: block;
 }
 
-/* .mu-video-iframe-area iframe {
+.mu-video-iframe-area iframe {
 
-} */
+}
 
 
 /*--------------------*/
@@ -769,10 +820,9 @@ button:focus {
 	margin-bottom: 5px;
 }
 
-/* .mu-single-speakers-social {
+.mu-single-speakers-social {
 
-} */
-
+}
 
 .mu-single-speakers-social li {
 	display: inline-block;
@@ -963,7 +1013,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets\images\3.jpg");
+	background-image: url("assets/images/3.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1278,7 +1328,30 @@ button:focus {
 	      border-radius: 4px;
 }
 
+.card {
+	/* Add shadows to create the "card" effect */
+	background-image: url("assets/images/bubble_bg.jpg");
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	padding-top: 15px;
+	padding-bottom: 15px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+	padding: 2px 2px;
+  }
 
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+	border-radius: 5px 5px 0 0;
+  }
+  
 
 /*--------------------*/
 /* FOOTER */
@@ -1384,12 +1457,10 @@ button:focus {
 	.mu-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
-		border-radius: 50%;
 	}
 
 	.mu-navbar .mu-menu {
 		margin-top: 5px;
-		border-radius: 50%;
 	}
 
 	.mu-navbar .mu-menu li a {
@@ -1772,49 +1843,3 @@ button:focus {
 	
 }
 
-/* Marquee Tag add on  */
-.newsm {
-  animation: blink 3s infinite;
-  font-size: 5rem;
-}
-
-.marquee {
-  position:relative;
-  width: 100vw;
-  max-width: 100%;
-  height: 50px;
-  overflow-x: hidden;
-  
-}
-
-.track {
-  position:relative;
-  white-space:nowrap;
-  will-change:auto;
-  animation: marquee 5s linear infinite;
-}
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    color: blue;
-  }
-}
-
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
-.footerm{
-	background-color: rgb(149, 147, 204 , 0.2);
-}
-.contentm{
-	font-size: 2rem;
-
-}
-.imageforsobus{
-  margin-left: 70px;
-}
