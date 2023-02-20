@@ -178,6 +178,9 @@ button:focus {
 	/* background-color: rgba(47, 43, 154, 0.2); 
 } */
 
+.imageforsobus {
+	margin-left: 130px;
+}
 
 .newsm {
 	animation: blink 3s infinite;
